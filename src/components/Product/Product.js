@@ -1,18 +1,17 @@
 import React from 'react';
+import './Product.css';
+import { BsCartPlus } from 'react-icons/bs';
 
-const Product = () => {
+const Product = (props) => {
+  const {image, name, price} = props.product;
   return (
     <div>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8"></div>
-          <div className="col-lg-4">
-            <h2>Selected items</h2>
-            <h5>Product name:</h5>
-            <button className='btn btn-info mt-4'>Choose 1 for me</button>
-            <br />
-            <button className='btn btn-danger mt-4'>Reset</button>
-          </div>
+      <div className='single-product-container'>
+        <img src={image} alt="product pic" className='img-fluid' />
+        <div className="single-product-info">
+          <h2 className='mt-3'>{name}</h2>
+          <p>${price}</p>
+          <button className='cart-btn'>ADD TO CART <BsCartPlus className='ms-3'></BsCartPlus> </button>
         </div>
       </div>
     </div>

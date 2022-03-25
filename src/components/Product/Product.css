@@ -1,0 +1,11 @@
+.single-product-container{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.single-product-info{
+  padding: 0px 0px 30px 20px;
+}
+.cart-btn{
+  border: 0;
+  padding: 5px 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
