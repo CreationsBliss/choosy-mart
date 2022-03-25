@@ -17,17 +17,17 @@ const Shop = () => {
     <div>
       <div className="container shop-container">
         <div className="row">
-          <div className="col-lg-8">
+          <div className="col-xl-8">
             <div className="single-product">
               {
               products.map(product => <Product key={product.id} product={product}></Product>)
               }
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-xl-4">
             <div className="cart-container">
-              <h2>Selected items</h2>
-              <h5>Product name:</h5>
+              <h5>Selected items</h5>
+              <p>Product name:</p>
               <button className='choose-btn mt-4'>Choose 1 for me</button>
               <br />
               <button className='reset-btn mt-4'>Reset</button>

@@ -9,7 +9,7 @@ const Product = (props) => {
       <div className='single-product-container'>
         <img src={image} alt="product pic" className='img-fluid' />
         <div className="single-product-info">
-          <h2 className='mt-3'>{name}</h2>
+          <h5 className='mt-3'>{name}</h5>
           <p>${price}</p>
           <button className='cart-btn'>ADD TO CART <BsCartPlus className='ms-3'></BsCartPlus> </button>
         </div>
