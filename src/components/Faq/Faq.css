@@ -1,0 +1,14 @@
+.faq-container{
+  margin-bottom: 100px;
+}
+.accordion-button:not(.collapsed) {
+  color: #be4bdb;
+  background-color: #f8f0fc;
+  box-shadow: inset 0 -1px 0 rgba(190, 75, 219, .125);
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(190, 75, 219, .125);
+}
