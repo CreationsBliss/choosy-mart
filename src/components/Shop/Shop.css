@@ -12,16 +12,20 @@
   margin-bottom: 100px;
 }
 .choose-btn{
+  width: 100%;
   background-color: #001c40;
   color: white;
   border: 0;
+  border-radius: 20px;
   padding: 5px 15px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 .reset-btn{
+  width: 100%;
   background-color: #be4bdb;
   color: white;
   border: 0;
+  border-radius: 20px;
   padding: 5px 15px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }

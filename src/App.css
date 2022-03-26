@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Nunito', sans-serif;
+}
+p, button, a, span, div, table{
+  font-family: 'Nunito', sans-serif;
+}
