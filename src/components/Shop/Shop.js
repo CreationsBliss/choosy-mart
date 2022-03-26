@@ -19,6 +19,11 @@ const Shop = () => {
     setCart(newCart);
   }
 
+  const handleChooseBtn = () =>{
+    const newCart =  cart[Math.floor(Math.random() * cart.length)];
+    setCart(newCart);
+  }
+
   const handleResetBtn = () =>{
     const newCart = [];
     setCart(newCart);
@@ -39,7 +44,7 @@ const Shop = () => {
             <div className="cart-container">
               <h3 className='mb-4'>Selected items</h3>
               <h5> {cart} </h5>
-              <button className='choose-btn mt-4'>Choose 1 for me</button>
+              <button className='choose-btn mt-4' onClick={handleChooseBtn}>Choose 1 for me</button>
               <br />
               <button className='reset-btn mt-4' onClick={handleResetBtn}>Reset</button>
             </div>
