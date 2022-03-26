@@ -19,6 +19,11 @@ const Shop = () => {
     setCart(newCart);
   }
 
+  const handleResetBtn = () =>{
+    const newCart = [];
+    setCart(newCart);
+  }
+
   return (
     <div>
       <div className="container shop-container">
@@ -36,7 +41,7 @@ const Shop = () => {
               <h5> {cart} </h5>
               <button className='choose-btn mt-4'>Choose 1 for me</button>
               <br />
-              <button className='reset-btn mt-4'>Reset</button>
+              <button className='reset-btn mt-4' onClick={handleResetBtn}>Reset</button>
             </div>
           </div>
         </div>

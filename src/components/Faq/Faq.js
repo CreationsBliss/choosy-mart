@@ -6,6 +6,7 @@ const Faq = () => {
   return (
     <div>
       <div className="container faq-container">
+        <h4 className='pb-4'>FAQ</h4>
         <div className="row">
           <div className="col-12">
             <Accordion defaultActiveKey="0">
@@ -44,13 +45,7 @@ const Faq = () => {
               <Accordion.Item eventKey="2">
                 <Accordion.Header>#3. How useState works?</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum.
+                   A Hook is a special function that allows to “hook into” React features. Such as, useState is a Hook that allows you to add React state to function components. useState has to variables. One is use to set or update the value. Another one is used to get the value. 
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
